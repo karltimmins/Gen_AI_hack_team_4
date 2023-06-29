@@ -8,7 +8,7 @@ st.set_page_config(page_title="HugChat - An LLM-powered Streamlit app")
 
 # Sidebar contents
 with st.sidebar:
-    st.title('🤗💬 HugChat App')
+    st.title('🤗💬 Accenture Policy App')
     st.markdown('''
     ## About
     This app is an LLM-powered chatbot built using:
@@ -24,7 +24,7 @@ with st.sidebar:
 # Generate empty lists for generated and past.
 ## generated stores AI generated responses
 if 'generated' not in st.session_state:
-    st.session_state['generated'] = ["I'm HugChat, How may I help you?"]
+    st.session_state['generated'] = ["I'm Accenture Chat, How may I help you?"]
 ## past stores User's questions
 if 'past' not in st.session_state:
     st.session_state['past'] = ['Hi!']
