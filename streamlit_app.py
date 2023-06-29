@@ -19,7 +19,6 @@ with st.sidebar:
     💡 Note: No API key required!
     ''')
     add_vertical_space(5)
-    st.write('Made with ❤️ by [Data Professor](https://youtube.com/dataprofessor)')
 
 # Generate empty lists for generated and past.
 ## generated stores AI generated responses
